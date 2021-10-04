@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class metrixAddition
+class matrixAddition
 {
   public static void main(String arg[])
   {
@@ -28,7 +28,7 @@ class metrixAddition
       a[i][j]=sc.nextInt();
      }
     }
-  System.out.println("Print the 1st metrix:");
+  System.out.println("Print the 1st matrix:");
   for(int i=0;i<r1;i++)
    {
     for(int j=0;j<c1;j++)
@@ -46,7 +46,7 @@ class metrixAddition
       b[i][j]=sc.nextInt();
      }
     }
-    System.out.println("Print the 1st metrix:");
+    System.out.println("Print the 1st matrix:");
   for(int i=0;i<r2;i++)
    {
     for(int j=0;j<c2;j++)
@@ -63,7 +63,7 @@ class metrixAddition
      }
     }
 
-   System.out.println("sum of the two metrices are:");
+   System.out.println("sum of the two matrices are:");
   for(int i=0;i<r1;i++)
    {
     for(int j=0;j<c1;j++)
